@@ -1,0 +1,51 @@
+Change Dir: /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "VerifyFortranC"
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -H/usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/FortranCInterface/Verify -B/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/local/opt/make/bin/gmake -f CMakeFiles/Makefile2 VerifyFortranC
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC'
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -H/usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/FortranCInterface/Verify -B/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_progress_start /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC/CMakeFiles 5
+/usr/local/opt/make/bin/gmake -f CMakeFiles/Makefile2 CMakeFiles/VerifyFortranC.dir/all
+gmake[2]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC'
+/usr/local/opt/make/bin/gmake -f CMakeFiles/VerifyFortran.dir/build.make CMakeFiles/VerifyFortran.dir/depend
+gmake[3]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC'
+cd /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC && /usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_depends "Unix Makefiles" /usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/FortranCInterface/Verify /usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/FortranCInterface/Verify /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC/CMakeFiles/VerifyFortran.dir/DependInfo.cmake
+Scanning dependencies of target VerifyFortran
+gmake[3]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC'
+/usr/local/opt/make/bin/gmake -f CMakeFiles/VerifyFortran.dir/build.make CMakeFiles/VerifyFortran.dir/requires
+gmake[3]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC'
+gmake[3]: Nothing to be done for 'CMakeFiles/VerifyFortran.dir/requires'.
+gmake[3]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC'
+/usr/local/opt/make/bin/gmake -f CMakeFiles/VerifyFortran.dir/build.make CMakeFiles/VerifyFortran.dir/build
+gmake[3]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC'
+[ 20%] Building Fortran object CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
+/usr/local/bin/gfortran  -I/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC  -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native   -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native -O2 -DNDEBUG -O2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -c /usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/FortranCInterface/Verify/VerifyFortran.f -o CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
+[ 40%] Linking Fortran static library libVerifyFortran.a
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -P CMakeFiles/VerifyFortran.dir/cmake_clean_target.cmake
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/VerifyFortran.dir/link.txt --verbose=1
+/usr/bin/ar qc libVerifyFortran.a  CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
+/usr/bin/ranlib libVerifyFortran.a
+gmake[3]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC'
+[ 40%] Built target VerifyFortran
+/usr/local/opt/make/bin/gmake -f CMakeFiles/VerifyFortranC.dir/build.make CMakeFiles/VerifyFortranC.dir/depend
+gmake[3]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC'
+cd /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC && /usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_depends "Unix Makefiles" /usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/FortranCInterface/Verify /usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/FortranCInterface/Verify /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC/CMakeFiles/VerifyFortranC.dir/DependInfo.cmake
+Scanning dependencies of target VerifyFortranC
+gmake[3]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC'
+/usr/local/opt/make/bin/gmake -f CMakeFiles/VerifyFortranC.dir/build.make CMakeFiles/VerifyFortranC.dir/build
+gmake[3]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC'
+[ 60%] Building C object CMakeFiles/VerifyFortranC.dir/main.c.o
+/usr/local/bin/mpicc  -I/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC  -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native  -march=native -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -o CMakeFiles/VerifyFortranC.dir/main.c.o   -c /usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/FortranCInterface/Verify/main.c
+[ 80%] Building C object CMakeFiles/VerifyFortranC.dir/VerifyC.c.o
+/usr/local/bin/mpicc  -I/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC  -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native  -march=native -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -o CMakeFiles/VerifyFortranC.dir/VerifyC.c.o   -c /usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/FortranCInterface/Verify/VerifyC.c
+[100%] Linking C executable VerifyFortranC
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/VerifyFortranC.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native  -march=native -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/lapack/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib CMakeFiles/VerifyFortranC.dir/main.c.o CMakeFiles/VerifyFortranC.dir/VerifyC.c.o  -o VerifyFortranC  -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0  -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7 libVerifyFortran.a -lgfortran -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc 
+ld: warning: directory not found for option '-L/usr/local/opt/lapack/lib'
+ld: warning: directory not found for option '-L/usr/local/opt/openblas/lib'
+gmake[3]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC'
+[100%] Built target VerifyFortranC
+gmake[2]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC'
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_progress_start /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC/CMakeFiles 0
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC'

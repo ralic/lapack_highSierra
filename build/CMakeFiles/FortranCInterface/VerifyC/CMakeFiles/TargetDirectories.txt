@@ -1,0 +1,4 @@
+/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC/CMakeFiles/rebuild_cache.dir
+/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC/CMakeFiles/edit_cache.dir
+/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC/CMakeFiles/VerifyFortranC.dir
+/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC/CMakeFiles/VerifyFortran.dir

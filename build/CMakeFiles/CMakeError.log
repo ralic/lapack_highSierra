@@ -1,0 +1,94 @@
+Fortran EXT_ETIME does not exist. 
+ Change Dir: /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "secondtst_EXT_ETIME"
+Scanning dependencies of target secondtst_EXT_ETIME
+[ 33%] Building Fortran object CMakeFiles/secondtst_EXT_ETIME.dir/second_EXT_ETIME.f.o
+[ 66%] Building Fortran object CMakeFiles/secondtst_EXT_ETIME.dir/secondtst.f.o
+[100%] Linking Fortran executable secondtst_EXT_ETIME
+ld: warning: directory not found for option '-L/usr/local/opt/lapack/lib'
+ld: warning: directory not found for option '-L/usr/local/opt/openblas/lib'
+Undefined symbols for architecture x86_64:
+  "_etime_", referenced from:
+      _second_ in second_EXT_ETIME.f.o
+ld: symbol(s) not found for architecture x86_64
+collect2: error: ld returned 1 exit status
+gmake[3]: *** [CMakeFiles/secondtst_EXT_ETIME.dir/build.make:121: secondtst_EXT_ETIME] Error 1
+gmake[2]: *** [CMakeFiles/Makefile2:221: CMakeFiles/secondtst_EXT_ETIME.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:233: CMakeFiles/secondtst_EXT_ETIME.dir/rule] Error 2
+gmake: *** [Makefile:170: secondtst_EXT_ETIME] Error 2
+ 
+Fortran EXT_ETIME_ does not exist. 
+ Change Dir: /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "secondtst_EXT_ETIME_"
+Scanning dependencies of target secondtst_EXT_ETIME_
+[ 33%] Building Fortran object CMakeFiles/secondtst_EXT_ETIME_.dir/second_EXT_ETIME_.f.o
+[ 66%] Building Fortran object CMakeFiles/secondtst_EXT_ETIME_.dir/secondtst.f.o
+[100%] Linking Fortran executable secondtst_EXT_ETIME_
+ld: warning: directory not found for option '-L/usr/local/opt/lapack/lib'
+ld: warning: directory not found for option '-L/usr/local/opt/openblas/lib'
+Undefined symbols for architecture x86_64:
+  "_etime__", referenced from:
+      _second_ in second_EXT_ETIME_.f.o
+ld: symbol(s) not found for architecture x86_64
+collect2: error: ld returned 1 exit status
+gmake[3]: *** [CMakeFiles/secondtst_EXT_ETIME_.dir/build.make:121: secondtst_EXT_ETIME_] Error 1
+gmake[2]: *** [CMakeFiles/Makefile2:183: CMakeFiles/secondtst_EXT_ETIME_.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/secondtst_EXT_ETIME_.dir/rule] Error 2
+gmake: *** [Makefile:157: secondtst_EXT_ETIME_] Error 2
+ 
+Fortran EXT_ETIME does not exist. 
+ Change Dir: /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "secondtst_EXT_ETIME"
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[2]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[3]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[4]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[4]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[4]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+[ 33%] Linking Fortran executable secondtst_EXT_ETIME
+ld: warning: directory not found for option '-L/usr/local/opt/lapack/lib'
+ld: warning: directory not found for option '-L/usr/local/opt/openblas/lib'
+Undefined symbols for architecture x86_64:
+  "_etime_", referenced from:
+      _second_ in second_EXT_ETIME.f.o
+ld: symbol(s) not found for architecture x86_64
+collect2: error: ld returned 1 exit status
+gmake[4]: *** [CMakeFiles/secondtst_EXT_ETIME.dir/build.make:121: secondtst_EXT_ETIME] Error 1
+gmake[4]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[3]: *** [CMakeFiles/Makefile2:221: CMakeFiles/secondtst_EXT_ETIME.dir/all] Error 2
+gmake[3]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[2]: *** [CMakeFiles/Makefile2:233: CMakeFiles/secondtst_EXT_ETIME.dir/rule] Error 2
+gmake[2]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[1]: *** [Makefile:170: secondtst_EXT_ETIME] Error 2
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+ 
+Fortran EXT_ETIME_ does not exist. 
+ Change Dir: /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "secondtst_EXT_ETIME_"
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[2]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[3]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[4]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[4]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[4]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+[ 33%] Linking Fortran executable secondtst_EXT_ETIME_
+ld: warning: directory not found for option '-L/usr/local/opt/lapack/lib'
+ld: warning: directory not found for option '-L/usr/local/opt/openblas/lib'
+Undefined symbols for architecture x86_64:
+  "_etime__", referenced from:
+      _second_ in second_EXT_ETIME_.f.o
+ld: symbol(s) not found for architecture x86_64
+collect2: error: ld returned 1 exit status
+gmake[4]: *** [CMakeFiles/secondtst_EXT_ETIME_.dir/build.make:121: secondtst_EXT_ETIME_] Error 1
+gmake[4]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[3]: *** [CMakeFiles/Makefile2:183: CMakeFiles/secondtst_EXT_ETIME_.dir/all] Error 2
+gmake[3]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[2]: *** [CMakeFiles/Makefile2:195: CMakeFiles/secondtst_EXT_ETIME_.dir/rule] Error 2
+gmake[2]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[1]: *** [Makefile:157: secondtst_EXT_ETIME_] Error 2
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+ 

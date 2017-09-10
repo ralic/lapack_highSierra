@@ -1,0 +1,506 @@
+The system is: Darwin - 17.0.0 - x86_64
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /usr/local/bin/gfortran 
+Build flags: -fomit-frame-pointer;-funroll-loops;;-ffast-math;-Ofast;-fno-signed-zeros;-ffp-contract=fast;-mmmx;-msse;-maes;-march=native;;;-ffast-math;-Ofast;-fno-signed-zeros;-ffp-contract=fast;-mmmx;-msse;-maes;-march=native;;
+Id flags: -v 
+
+The output was:
+0
+Driving: /usr/local/bin/gfortran -fomit-frame-pointer -funroll-loops -Ofast -ffp-contract=fast -march=native -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native -v CMakeFortranCompilerId.F -mmacosx-version-min=10.13 -asm_macosx_version_min=10.13 -l gfortran -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/gfortran
+COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc/7.2.0/libexec/gcc/x86_64-apple-darwin17.0.0/7.2.0/lto-wrapper
+Target: x86_64-apple-darwin17.0.0
+Configured with: ../configure --build=x86_64-apple-darwin17.0.0 --prefix=/usr/local/Cellar/gcc/7.2.0 --libdir=/usr/local/Cellar/gcc/7.2.0/lib/gcc/7 --enable-languages=c,c++,objc,obj-c++,fortran,jit --enable-host-shared --program-suffix=-7 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-ld=/usr/bin/ld --with-system-zlib --enable-checking=release --with-pkgversion='Homebrew GCC 7.2.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --disable-nls
+Thread model: posix
+gcc version 7.2.0 (Homebrew GCC 7.2.0) 
+COLLECT_GCC_OPTIONS='-fomit-frame-pointer' '-funroll-loops' '-Ofast' '-ffp-contract=fast' '-march=native' '-ffast-math' '-Ofast' '-fno-signed-zeros' '-ffp-contract=fast' '-mmmx' '-msse' '-maes' '-march=native' '-v' '-mmacosx-version-min=10.13' '-asm_macosx_version_min=10.13' '-shared-libgcc'
+ /usr/local/Cellar/gcc/7.2.0/libexec/gcc/x86_64-apple-darwin17.0.0/7.2.0/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/openmpi/ccpt3fMB.f90 -quiet -v -D__DYNAMIC__ CMakeFortranCompilerId.F -march=sandybridge -mmmx -mno-3dnow -msse -msse2 -msse3 -mssse3 -mno-sse4a -mcx16 -msahf -mno-movbe -maes -mno-sha -mpclmul -mpopcnt -mno-abm -mno-lwp -mno-fma -mno-fma4 -mno-xop -mno-bmi -mno-sgx -mno-bmi2 -mno-tbm -mavx -mno-avx2 -msse4.2 -msse4.1 -mno-lzcnt -mno-rtm -mno-hle -mno-rdrnd -mno-f16c -mno-fsgsbase -mno-rdseed -mno-prfchw -mno-adx -mfxsr -mxsave -mxsaveopt -mno-avx512f -mno-avx512er -mno-avx512cd -mno-avx512pf -mno-prefetchwt1 -mno-clflushopt -mno-xsavec -mno-xsaves -mno-avx512dq -mno-avx512bw -mno-avx512vl -mno-avx512ifma -mno-avx512vbmi -mno-avx5124fmaps -mno-avx5124vnniw -mno-clwb -mno-mwaitx -mno-clzero -mno-pku -mno-rdpid --param l1-cache-size=32 --param l1-cache-line-size=64 --param l2-cache-size=4096 -mtune=sandybridge -fPIC -quiet -dumpbase CMakeFortranCompilerId.F -mmmx -msse -maes -mmacosx-version-min=10.13 -auxbase CMakeFortranCompilerId -Ofast -Ofast -version -fomit-frame-pointer -funroll-loops -ffp-contract=fast -ffast-math -fno-signed-zeros -ffp-contract=fast -fintrinsic-modules-path /usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/finclude -o /tmp/openmpi/cczVOaNV.s
+GNU Fortran (Homebrew GCC 7.2.0) version 7.2.0 (x86_64-apple-darwin17.0.0)
+	compiled by GNU C version 7.2.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version isl-0.18-GMP
+
+warning: MPFR header version 3.1.5 differs from library version 3.1.6.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../../../../x86_64-apple-darwin17.0.0/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/finclude
+ /usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include
+ /usr/local/include
+ /usr/local/Cellar/gcc/7.2.0/include
+ /usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/include-fixed
+ /usr/include
+End of search list.
+GNU Fortran2008 (Homebrew GCC 7.2.0) version 7.2.0 (x86_64-apple-darwin17.0.0)
+	compiled by GNU C version 7.2.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version isl-0.18-GMP
+
+warning: MPFR header version 3.1.5 differs from library version 3.1.6.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-fomit-frame-pointer' '-funroll-loops' '-Ofast' '-ffp-contract=fast' '-march=native' '-ffast-math' '-Ofast' '-fno-signed-zeros' '-ffp-contract=fast' '-mmmx' '-msse' '-maes' '-march=native' '-v' '-mmacosx-version-min=10.13'  '-shared-libgcc'
+ as -arch x86_64 -v -force_cpusubtype_ALL -mmacosx-version-min=10.13 -o /tmp/openmpi/ccxfw52T.o /tmp/openmpi/cczVOaNV.s
+Apple LLVM version 9.0.0 (clang-900.0.22.8)
+Target: x86_64-apple-darwin17.0.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+Found CUDA installation: /usr/local/cuda, version 8.0
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1as -triple x86_64-apple-macosx10.13.0 -filetype obj -main-file-name cczVOaNV.s -target-cpu penryn -fdebug-compilation-dir /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/3.9.2/CompilerIdFortran -dwarf-debug-producer Apple LLVM version 9.0.0 (clang-900.0.22.8) -dwarf-version=4 -mrelocation-model pic -o /tmp/openmpi/ccxfw52T.o /tmp/openmpi/cczVOaNV.s
+Reading specs from /usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-fomit-frame-pointer' '-funroll-loops' '-Ofast' '-ffp-contract=fast' '-march=native' '-ffast-math' '-Ofast' '-fno-signed-zeros' '-ffp-contract=fast' '-mmmx' '-msse' '-maes' '-march=native' '-v' '-mmacosx-version-min=10.13'  '-shared-libgcc'
+COMPILER_PATH=/usr/local/Cellar/gcc/7.2.0/libexec/gcc/x86_64-apple-darwin17.0.0/7.2.0/:/usr/local/Cellar/gcc/7.2.0/libexec/gcc/x86_64-apple-darwin17.0.0/7.2.0/:/usr/local/Cellar/gcc/7.2.0/libexec/gcc/x86_64-apple-darwin17.0.0/:/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/:/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/
+LIBRARY_PATH=/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/:/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../
+COLLECT_GCC_OPTIONS='-fomit-frame-pointer' '-funroll-loops' '-Ofast' '-ffp-contract=fast' '-march=native' '-ffast-math' '-Ofast' '-fno-signed-zeros' '-ffp-contract=fast' '-mmmx' '-msse' '-maes' '-march=native' '-v' '-mmacosx-version-min=10.13'  '-shared-libgcc'
+ /usr/local/Cellar/gcc/7.2.0/libexec/gcc/x86_64-apple-darwin17.0.0/7.2.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.13 -weak_reference_mismatches non-weak -o a.out -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0 -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../.. /tmp/openmpi/ccxfw52T.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem /usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/crtfastmath.o -v
+collect2 version 7.2.0
+/usr/bin/ld -dynamic -arch x86_64 -macosx_version_min 10.13 -weak_reference_mismatches non-weak -o a.out -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0 -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../.. /tmp/openmpi/ccxfw52T.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem /usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/crtfastmath.o -v
+@(#)PROGRAM:ld  PROJECT:ld64-301.1
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0
+	/usr/local/Cellar/gcc/7.2.0/lib/gcc/7
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+ /usr/local/opt/binutils/bin/gnm -n /tmp/openmpi/ccxfw52T.o
+ /usr/local/opt/binutils/bin/gnm -n /usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/crtfastmath.o
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/3.9.2/CompilerIdFortran/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/bin/mpicc 
+Build flags: -fomit-frame-pointer;-funroll-loops;;-ffast-math;-Ofast;-fno-signed-zeros;-ffp-contract=fast;-mmmx;-msse;-maes;-march=native;;-march=native
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/3.9.2/CompilerIdC/a.out"
+
+Determining if the Fortran compiler works passed with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_1441f/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_1441f.dir/build.make CMakeFiles/cmTC_1441f.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_1441f.dir/testFortranCompiler.f.o
+/usr/local/bin/gfortran   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native   -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -c /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_1441f.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_1441f
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1441f.dir/link.txt --verbose=1
+/usr/local/bin/gfortran  -L/usr/local/opt/lapack/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native   -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 CMakeFiles/cmTC_1441f.dir/testFortranCompiler.f.o  -o cmTC_1441f 
+ld: warning: directory not found for option '-L/usr/local/opt/lapack/lib'
+ld: warning: directory not found for option '-L/usr/local/opt/openblas/lib'
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/CMakeTmp'
+
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_cf1e2/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_cf1e2.dir/build.make CMakeFiles/cmTC_cf1e2.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_cf1e2.dir/CMakeFortranCompilerABI.F.o
+/usr/local/bin/gfortran   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native   -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -c /usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_cf1e2.dir/CMakeFortranCompilerABI.F.o
+Linking Fortran executable cmTC_cf1e2
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf1e2.dir/link.txt --verbose=1
+/usr/local/bin/gfortran  -L/usr/local/opt/lapack/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -v -Wl,-v -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native   -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 CMakeFiles/cmTC_cf1e2.dir/CMakeFortranCompilerABI.F.o  -o cmTC_cf1e2 
+Driving: /usr/local/bin/gfortran -L/usr/local/opt/lapack/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -v -Wl,-v -fomit-frame-pointer -funroll-loops -Ofast -ffp-contract=fast -march=native -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 CMakeFiles/cmTC_cf1e2.dir/CMakeFortranCompilerABI.F.o -o cmTC_cf1e2 -asm_macosx_version_min=10.13 -l gfortran -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/gfortran
+COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc/7.2.0/libexec/gcc/x86_64-apple-darwin17.0.0/7.2.0/lto-wrapper
+Target: x86_64-apple-darwin17.0.0
+Configured with: ../configure --build=x86_64-apple-darwin17.0.0 --prefix=/usr/local/Cellar/gcc/7.2.0 --libdir=/usr/local/Cellar/gcc/7.2.0/lib/gcc/7 --enable-languages=c,c++,objc,obj-c++,fortran,jit --enable-host-shared --program-suffix=-7 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-ld=/usr/bin/ld --with-system-zlib --enable-checking=release --with-pkgversion='Homebrew GCC 7.2.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --disable-nls
+Thread model: posix
+gcc version 7.2.0 (Homebrew GCC 7.2.0) 
+Reading specs from /usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-L/usr/local/opt/lapack/lib' '-L/usr/local/opt/openblas/lib' '-L/usr/local/opt/llvm/lib' '-L/usr/local/opt/sqlite/lib' '-L/usr/local/opt/readline/lib' '-L/usr/local/opt/openssl@1.1/lib' '-v' '-fomit-frame-pointer' '-funroll-loops' '-Ofast' '-ffp-contract=fast' '-march=native' '-ffast-math' '-Ofast' '-fno-signed-zeros' '-ffp-contract=fast' '-mmmx' '-msse' '-maes' '-march=native' '-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk' '-mmacosx-version-min=10.13' '-o' 'cmTC_cf1e2' '-asm_macosx_version_min=10.13' '-shared-libgcc'
+COMPILER_PATH=/usr/local/Cellar/gcc/7.2.0/libexec/gcc/x86_64-apple-darwin17.0.0/7.2.0/:/usr/local/Cellar/gcc/7.2.0/libexec/gcc/x86_64-apple-darwin17.0.0/7.2.0/:/usr/local/Cellar/gcc/7.2.0/libexec/gcc/x86_64-apple-darwin17.0.0/:/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/:/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/
+LIBRARY_PATH=/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/:/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../
+COLLECT_GCC_OPTIONS='-L/usr/local/opt/lapack/lib' '-L/usr/local/opt/openblas/lib' '-L/usr/local/opt/llvm/lib' '-L/usr/local/opt/sqlite/lib' '-L/usr/local/opt/readline/lib' '-L/usr/local/opt/openssl@1.1/lib' '-v' '-fomit-frame-pointer' '-funroll-loops' '-Ofast' '-ffp-contract=fast' '-march=native' '-ffast-math' '-Ofast' '-fno-signed-zeros' '-ffp-contract=fast' '-mmmx' '-msse' '-maes' '-march=native' '-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk' '-mmacosx-version-min=10.13' '-o' 'cmTC_cf1e2' '-asm_macosx_version_min=10.13' '-shared-libgcc'
+ /usr/local/Cellar/gcc/7.2.0/libexec/gcc/x86_64-apple-darwin17.0.0/7.2.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.13 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -weak_reference_mismatches non-weak -o cmTC_cf1e2 -L/usr/local/opt/lapack/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0 -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../.. -v CMakeFiles/cmTC_cf1e2.dir/CMakeFortranCompilerABI.F.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem /usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/crtfastmath.o -v
+collect2 version 7.2.0
+/usr/bin/ld -dynamic -arch x86_64 -macosx_version_min 10.13 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -weak_reference_mismatches non-weak -o cmTC_cf1e2 -L/usr/local/opt/lapack/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0 -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../.. -v CMakeFiles/cmTC_cf1e2.dir/CMakeFortranCompilerABI.F.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem /usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/crtfastmath.o -v
+@(#)PROGRAM:ld  PROJECT:ld64-301.1
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+@(#)PROGRAM:ld  PROJECT:ld64-301.1
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+ld: warning: directory not found for option '-L/usr/local/opt/lapack/lib'
+ld: warning: directory not found for option '-L/usr/local/opt/openblas/lib'
+Library search paths:
+	/usr/local/opt/llvm/lib
+	/usr/local/opt/sqlite/lib
+	/usr/local/opt/readline/lib
+	/usr/local/opt/openssl@1.1/lib
+	/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0
+	/usr/local/Cellar/gcc/7.2.0/lib/gcc/7
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/
+ /usr/local/opt/binutils/bin/gnm -n CMakeFiles/cmTC_cf1e2.dir/CMakeFortranCompilerABI.F.o
+ /usr/local/opt/binutils/bin/gnm -n /usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/crtfastmath.o
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/CMakeTmp'
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_cf1e2/fast"]
+  ignore line: [/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_cf1e2.dir/build.make CMakeFiles/cmTC_cf1e2.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building Fortran object CMakeFiles/cmTC_cf1e2.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/usr/local/bin/gfortran   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native   -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -c /usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_cf1e2.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [Linking Fortran executable cmTC_cf1e2]
+  ignore line: [/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf1e2.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/gfortran  -L/usr/local/opt/lapack/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -v -Wl,-v -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native   -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 CMakeFiles/cmTC_cf1e2.dir/CMakeFortranCompilerABI.F.o  -o cmTC_cf1e2 ]
+  ignore line: [Driving: /usr/local/bin/gfortran -L/usr/local/opt/lapack/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -v -Wl,-v -fomit-frame-pointer -funroll-loops -Ofast -ffp-contract=fast -march=native -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 CMakeFiles/cmTC_cf1e2.dir/CMakeFortranCompilerABI.F.o -o cmTC_cf1e2 -asm_macosx_version_min=10.13 -l gfortran -shared-libgcc]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/gfortran]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc/7.2.0/libexec/gcc/x86_64-apple-darwin17.0.0/7.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-apple-darwin17.0.0]
+  ignore line: [Configured with: ../configure --build=x86_64-apple-darwin17.0.0 --prefix=/usr/local/Cellar/gcc/7.2.0 --libdir=/usr/local/Cellar/gcc/7.2.0/lib/gcc/7 --enable-languages=c,c++,objc,obj-c++,fortran,jit --enable-host-shared --program-suffix=-7 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-ld=/usr/bin/ld --with-system-zlib --enable-checking=release --with-pkgversion='Homebrew GCC 7.2.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --disable-nls]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.2.0 (Homebrew GCC 7.2.0) ]
+  ignore line: [Reading specs from /usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../libgfortran.spec]
+  ignore line: [rename spec lib to liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-L/usr/local/opt/lapack/lib' '-L/usr/local/opt/openblas/lib' '-L/usr/local/opt/llvm/lib' '-L/usr/local/opt/sqlite/lib' '-L/usr/local/opt/readline/lib' '-L/usr/local/opt/openssl@1.1/lib' '-v' '-fomit-frame-pointer' '-funroll-loops' '-Ofast' '-ffp-contract=fast' '-march=native' '-ffast-math' '-Ofast' '-fno-signed-zeros' '-ffp-contract=fast' '-mmmx' '-msse' '-maes' '-march=native' '-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk' '-mmacosx-version-min=10.13' '-o' 'cmTC_cf1e2' '-asm_macosx_version_min=10.13' '-shared-libgcc']
+  ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc/7.2.0/libexec/gcc/x86_64-apple-darwin17.0.0/7.2.0/:/usr/local/Cellar/gcc/7.2.0/libexec/gcc/x86_64-apple-darwin17.0.0/7.2.0/:/usr/local/Cellar/gcc/7.2.0/libexec/gcc/x86_64-apple-darwin17.0.0/:/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/:/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/]
+  ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/:/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-L/usr/local/opt/lapack/lib' '-L/usr/local/opt/openblas/lib' '-L/usr/local/opt/llvm/lib' '-L/usr/local/opt/sqlite/lib' '-L/usr/local/opt/readline/lib' '-L/usr/local/opt/openssl@1.1/lib' '-v' '-fomit-frame-pointer' '-funroll-loops' '-Ofast' '-ffp-contract=fast' '-march=native' '-ffast-math' '-Ofast' '-fno-signed-zeros' '-ffp-contract=fast' '-mmmx' '-msse' '-maes' '-march=native' '-isysroot' '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk' '-mmacosx-version-min=10.13' '-o' 'cmTC_cf1e2' '-asm_macosx_version_min=10.13' '-shared-libgcc']
+  link line: [ /usr/local/Cellar/gcc/7.2.0/libexec/gcc/x86_64-apple-darwin17.0.0/7.2.0/collect2 -dynamic -arch x86_64 -macosx_version_min 10.13 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -weak_reference_mismatches non-weak -o cmTC_cf1e2 -L/usr/local/opt/lapack/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0 -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../.. -v CMakeFiles/cmTC_cf1e2.dir/CMakeFortranCompilerABI.F.o -lgfortran -no_compact_unwind -lSystem -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc -lSystem /usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/crtfastmath.o -v]
+    arg [/usr/local/Cellar/gcc/7.2.0/libexec/gcc/x86_64-apple-darwin17.0.0/7.2.0/collect2] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.13] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk] ==> ignore
+    arg [-weak_reference_mismatches] ==> ignore
+    arg [non-weak] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_cf1e2] ==> ignore
+    arg [-L/usr/local/opt/lapack/lib] ==> dir [/usr/local/opt/lapack/lib]
+    arg [-L/usr/local/opt/openblas/lib] ==> dir [/usr/local/opt/openblas/lib]
+    arg [-L/usr/local/opt/llvm/lib] ==> dir [/usr/local/opt/llvm/lib]
+    arg [-L/usr/local/opt/sqlite/lib] ==> dir [/usr/local/opt/sqlite/lib]
+    arg [-L/usr/local/opt/readline/lib] ==> dir [/usr/local/opt/readline/lib]
+    arg [-L/usr/local/opt/openssl@1.1/lib] ==> dir [/usr/local/opt/openssl@1.1/lib]
+    arg [-L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0] ==> dir [/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0]
+    arg [-L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../..] ==> dir [/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../..]
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_cf1e2.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-no_compact_unwind] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [-lgcc_ext.10.5] ==> lib [gcc_ext.10.5]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_ext.10.5] ==> lib [gcc_ext.10.5]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lSystem] ==> lib [System]
+    arg [/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/crtfastmath.o] ==> ignore
+    arg [-v] ==> ignore
+  Library search paths: [;/usr/local/opt/llvm/lib;/usr/local/opt/sqlite/lib;/usr/local/opt/readline/lib;/usr/local/opt/openssl@1.1/lib;/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0;/usr/local/Cellar/gcc/7.2.0/lib/gcc/7;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [System]
+  collapse library dir [/usr/local/opt/lapack/lib] ==> [/usr/local/opt/lapack/lib]
+  collapse library dir [/usr/local/opt/openblas/lib] ==> [/usr/local/opt/openblas/lib]
+  collapse library dir [/usr/local/opt/llvm/lib] ==> [/usr/local/opt/llvm/lib]
+  collapse library dir [/usr/local/opt/sqlite/lib] ==> [/usr/local/opt/sqlite/lib]
+  collapse library dir [/usr/local/opt/readline/lib] ==> [/usr/local/opt/readline/lib]
+  collapse library dir [/usr/local/opt/openssl@1.1/lib] ==> [/usr/local/opt/openssl@1.1/lib]
+  collapse library dir [/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0] ==> [/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0]
+  collapse library dir [/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0/../../..] ==> [/usr/local/Cellar/gcc/7.2.0/lib/gcc/7]
+  collapse library dir [/usr/local/opt/llvm/lib] ==> [/usr/local/opt/llvm/lib]
+  collapse library dir [/usr/local/opt/sqlite/lib] ==> [/usr/local/opt/sqlite/lib]
+  collapse library dir [/usr/local/opt/readline/lib] ==> [/usr/local/opt/readline/lib]
+  collapse library dir [/usr/local/opt/openssl@1.1/lib] ==> [/usr/local/opt/openssl@1.1/lib]
+  collapse library dir [/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0] ==> [/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0]
+  collapse library dir [/usr/local/Cellar/gcc/7.2.0/lib/gcc/7] ==> [/usr/local/Cellar/gcc/7.2.0/lib/gcc/7]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks]
+  implicit libs: [gfortran;gcc_ext.10.5;gcc;quadmath;m;gcc_ext.10.5;gcc]
+  implicit dirs: [/usr/local/opt/lapack/lib;/usr/local/opt/openblas/lib;/usr/local/opt/llvm/lib;/usr/local/opt/sqlite/lib;/usr/local/opt/readline/lib;/usr/local/opt/openssl@1.1/lib;/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0;/usr/local/Cellar/gcc/7.2.0/lib/gcc/7;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks]
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_0908c/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_0908c.dir/build.make CMakeFiles/cmTC_0908c.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_0908c.dir/testFortranCompilerF90.f90.o
+/usr/local/bin/gfortran   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native   -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -c /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_0908c.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTC_0908c
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0908c.dir/link.txt --verbose=1
+/usr/local/bin/gfortran  -L/usr/local/opt/lapack/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native   -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 CMakeFiles/cmTC_0908c.dir/testFortranCompilerF90.f90.o  -o cmTC_0908c 
+ld: warning: directory not found for option '-L/usr/local/opt/lapack/lib'
+ld: warning: directory not found for option '-L/usr/local/opt/openblas/lib'
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_70325/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_70325.dir/build.make CMakeFiles/cmTC_70325.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70325.dir/testCCompiler.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native  -march=native  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -o CMakeFiles/cmTC_70325.dir/testCCompiler.c.o   -c /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_70325
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70325.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native  -march=native  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/lapack/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_70325.dir/testCCompiler.c.o  -o cmTC_70325 
+ld: warning: directory not found for option '-L/usr/local/opt/lapack/lib'
+ld: warning: directory not found for option '-L/usr/local/opt/openblas/lib'
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_28af7/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_28af7.dir/build.make CMakeFiles/cmTC_28af7.dir/build
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28af7.dir/CMakeCCompilerABI.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native  -march=native  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -o CMakeFiles/cmTC_28af7.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_28af7
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28af7.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native  -march=native  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/lapack/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -v -Wl,-v CMakeFiles/cmTC_28af7.dir/CMakeCCompilerABI.c.o  -o cmTC_28af7 
+clang version 5.0.0 (tags/RELEASE_500/final)
+Target: x86_64-apple-darwin17.0.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+Found CUDA installation: /usr/local/cuda, version 8.0
+ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/5.0.0/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o cmTC_28af7 -L/usr/local/opt/lapack/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/libevent/lib -L/usr/local/Cellar/open-mpi/2.1.1/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_28af7.dir/CMakeCCompilerABI.c.o -lmpi -lSystem /usr/local/Cellar/llvm/5.0.0/lib/clang/5.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-301.1
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+ld: warning: directory not found for option '-L/usr/local/opt/lapack/lib'
+ld: warning: directory not found for option '-L/usr/local/opt/openblas/lib'
+Library search paths:
+	/usr/local/opt/llvm/lib
+	/usr/local/opt/sqlite/lib
+	/usr/local/opt/readline/lib
+	/usr/local/opt/openssl@1.1/lib
+	/usr/local/opt/libevent/lib
+	/usr/local/Cellar/open-mpi/2.1.1/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_28af7/fast"]
+  ignore line: [/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_28af7.dir/build.make CMakeFiles/cmTC_28af7.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_28af7.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native  -march=native  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -o CMakeFiles/cmTC_28af7.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_28af7]
+  ignore line: [/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28af7.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native  -march=native  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/lapack/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -v -Wl,-v CMakeFiles/cmTC_28af7.dir/CMakeCCompilerABI.c.o  -o cmTC_28af7 ]
+  ignore line: [clang version 5.0.0 (tags/RELEASE_500/final)]
+  ignore line: [Target: x86_64-apple-darwin17.0.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/local/opt/llvm/bin]
+  ignore line: [Found CUDA installation: /usr/local/cuda, version 8.0]
+  link line: [ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/5.0.0/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o cmTC_28af7 -L/usr/local/opt/lapack/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/libevent/lib -L/usr/local/Cellar/open-mpi/2.1.1/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_28af7.dir/CMakeCCompilerABI.c.o -lmpi -lSystem /usr/local/Cellar/llvm/5.0.0/lib/clang/5.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/usr/local/Cellar/llvm/5.0.0/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.13.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_28af7] ==> ignore
+    arg [-L/usr/local/opt/lapack/lib] ==> dir [/usr/local/opt/lapack/lib]
+    arg [-L/usr/local/opt/openblas/lib] ==> dir [/usr/local/opt/openblas/lib]
+    arg [-L/usr/local/opt/llvm/lib] ==> dir [/usr/local/opt/llvm/lib]
+    arg [-L/usr/local/opt/sqlite/lib] ==> dir [/usr/local/opt/sqlite/lib]
+    arg [-L/usr/local/opt/readline/lib] ==> dir [/usr/local/opt/readline/lib]
+    arg [-L/usr/local/opt/openssl@1.1/lib] ==> dir [/usr/local/opt/openssl@1.1/lib]
+    arg [-L/usr/local/opt/libevent/lib] ==> dir [/usr/local/opt/libevent/lib]
+    arg [-L/usr/local/Cellar/open-mpi/2.1.1/lib] ==> dir [/usr/local/Cellar/open-mpi/2.1.1/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_28af7.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lmpi] ==> lib [mpi]
+    arg [-lSystem] ==> lib [System]
+    arg [/usr/local/Cellar/llvm/5.0.0/lib/clang/5.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/usr/local/Cellar/llvm/5.0.0/lib/clang/5.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/local/opt/llvm/lib;/usr/local/opt/sqlite/lib;/usr/local/opt/readline/lib;/usr/local/opt/openssl@1.1/lib;/usr/local/opt/libevent/lib;/usr/local/Cellar/open-mpi/2.1.1/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/usr/local/Cellar/llvm/5.0.0/lib/clang/5.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/local/opt/lapack/lib] ==> [/usr/local/opt/lapack/lib]
+  collapse library dir [/usr/local/opt/openblas/lib] ==> [/usr/local/opt/openblas/lib]
+  collapse library dir [/usr/local/opt/llvm/lib] ==> [/usr/local/opt/llvm/lib]
+  collapse library dir [/usr/local/opt/sqlite/lib] ==> [/usr/local/opt/sqlite/lib]
+  collapse library dir [/usr/local/opt/readline/lib] ==> [/usr/local/opt/readline/lib]
+  collapse library dir [/usr/local/opt/openssl@1.1/lib] ==> [/usr/local/opt/openssl@1.1/lib]
+  collapse library dir [/usr/local/opt/libevent/lib] ==> [/usr/local/opt/libevent/lib]
+  collapse library dir [/usr/local/Cellar/open-mpi/2.1.1/lib] ==> [/usr/local/Cellar/open-mpi/2.1.1/lib]
+  collapse library dir [/usr/local/opt/llvm/lib] ==> [/usr/local/opt/llvm/lib]
+  collapse library dir [/usr/local/opt/sqlite/lib] ==> [/usr/local/opt/sqlite/lib]
+  collapse library dir [/usr/local/opt/readline/lib] ==> [/usr/local/opt/readline/lib]
+  collapse library dir [/usr/local/opt/openssl@1.1/lib] ==> [/usr/local/opt/openssl@1.1/lib]
+  collapse library dir [/usr/local/opt/libevent/lib] ==> [/usr/local/opt/libevent/lib]
+  collapse library dir [/usr/local/Cellar/open-mpi/2.1.1/lib] ==> [/usr/local/Cellar/open-mpi/2.1.1/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks]
+  implicit libs: [mpi]
+  implicit dirs: [/usr/local/opt/lapack/lib;/usr/local/opt/openblas/lib;/usr/local/opt/llvm/lib;/usr/local/opt/sqlite/lib;/usr/local/opt/readline/lib;/usr/local/opt/openssl@1.1/lib;/usr/local/opt/libevent/lib;/usr/local/Cellar/open-mpi/2.1.1/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks]
+
+
+Fortran NONE exists. Change Dir: /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "secondtst_NONE"
+Scanning dependencies of target secondtst_NONE
+[ 33%] Building Fortran object CMakeFiles/secondtst_NONE.dir/second_NONE.f.o
+[ 66%] Building Fortran object CMakeFiles/secondtst_NONE.dir/secondtst.f.o
+[100%] Linking Fortran executable secondtst_NONE
+ld: warning: directory not found for option '-L/usr/local/opt/lapack/lib'
+ld: warning: directory not found for option '-L/usr/local/opt/openblas/lib'
+[100%] Built target secondtst_NONE
+ 
+
+Fortran INT_CPU_TIME exists. Change Dir: /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "secondtst_INT_CPU_TIME"
+Scanning dependencies of target secondtst_INT_CPU_TIME
+[ 33%] Building Fortran object CMakeFiles/secondtst_INT_CPU_TIME.dir/second_INT_CPU_TIME.f.o
+[ 66%] Building Fortran object CMakeFiles/secondtst_INT_CPU_TIME.dir/secondtst.f.o
+[100%] Linking Fortran executable secondtst_INT_CPU_TIME
+ld: warning: directory not found for option '-L/usr/local/opt/lapack/lib'
+ld: warning: directory not found for option '-L/usr/local/opt/openblas/lib'
+[100%] Built target secondtst_INT_CPU_TIME
+ 
+
+Fortran INT_ETIME exists. Change Dir: /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "secondtst_INT_ETIME"
+Scanning dependencies of target secondtst_INT_ETIME
+[ 33%] Building Fortran object CMakeFiles/secondtst_INT_ETIME.dir/second_INT_ETIME.f.o
+[ 66%] Building Fortran object CMakeFiles/secondtst_INT_ETIME.dir/secondtst.f.o
+[100%] Linking Fortran executable secondtst_INT_ETIME
+ld: warning: directory not found for option '-L/usr/local/opt/lapack/lib'
+ld: warning: directory not found for option '-L/usr/local/opt/openblas/lib'
+[100%] Built target secondtst_INT_ETIME
+ 
+
+Verifying Fortran/C Compiler Compatibility passed with the following output:
+Change Dir: /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "VerifyFortranC"
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -H/usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/FortranCInterface/Verify -B/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/local/opt/make/bin/gmake -f CMakeFiles/Makefile2 VerifyFortranC
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC'
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -H/usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/FortranCInterface/Verify -B/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_progress_start /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC/CMakeFiles 5
+/usr/local/opt/make/bin/gmake -f CMakeFiles/Makefile2 CMakeFiles/VerifyFortranC.dir/all
+gmake[2]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC'
+/usr/local/opt/make/bin/gmake -f CMakeFiles/VerifyFortran.dir/build.make CMakeFiles/VerifyFortran.dir/depend
+gmake[3]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC'
+cd /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC && /usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_depends "Unix Makefiles" /usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/FortranCInterface/Verify /usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/FortranCInterface/Verify /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC/CMakeFiles/VerifyFortran.dir/DependInfo.cmake
+Scanning dependencies of target VerifyFortran
+gmake[3]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC'
+/usr/local/opt/make/bin/gmake -f CMakeFiles/VerifyFortran.dir/build.make CMakeFiles/VerifyFortran.dir/requires
+gmake[3]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC'
+gmake[3]: Nothing to be done for 'CMakeFiles/VerifyFortran.dir/requires'.
+gmake[3]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC'
+/usr/local/opt/make/bin/gmake -f CMakeFiles/VerifyFortran.dir/build.make CMakeFiles/VerifyFortran.dir/build
+gmake[3]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC'
+[ 20%] Building Fortran object CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
+/usr/local/bin/gfortran  -I/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC  -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native   -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native -O2 -DNDEBUG -O2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -c /usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/FortranCInterface/Verify/VerifyFortran.f -o CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
+[ 40%] Linking Fortran static library libVerifyFortran.a
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -P CMakeFiles/VerifyFortran.dir/cmake_clean_target.cmake
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/VerifyFortran.dir/link.txt --verbose=1
+/usr/bin/ar qc libVerifyFortran.a  CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
+/usr/bin/ranlib libVerifyFortran.a
+gmake[3]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC'
+[ 40%] Built target VerifyFortran
+/usr/local/opt/make/bin/gmake -f CMakeFiles/VerifyFortranC.dir/build.make CMakeFiles/VerifyFortranC.dir/depend
+gmake[3]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC'
+cd /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC && /usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_depends "Unix Makefiles" /usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/FortranCInterface/Verify /usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/FortranCInterface/Verify /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC/CMakeFiles/VerifyFortranC.dir/DependInfo.cmake
+Scanning dependencies of target VerifyFortranC
+gmake[3]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC'
+/usr/local/opt/make/bin/gmake -f CMakeFiles/VerifyFortranC.dir/build.make CMakeFiles/VerifyFortranC.dir/build
+gmake[3]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC'
+[ 60%] Building C object CMakeFiles/VerifyFortranC.dir/main.c.o
+/usr/local/bin/mpicc  -I/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC  -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native  -march=native -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -o CMakeFiles/VerifyFortranC.dir/main.c.o   -c /usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/FortranCInterface/Verify/main.c
+[ 80%] Building C object CMakeFiles/VerifyFortranC.dir/VerifyC.c.o
+/usr/local/bin/mpicc  -I/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC  -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native  -march=native -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -o CMakeFiles/VerifyFortranC.dir/VerifyC.c.o   -c /usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/FortranCInterface/Verify/VerifyC.c
+[100%] Linking C executable VerifyFortranC
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/VerifyFortranC.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -maes -march=native  -march=native -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/lapack/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib CMakeFiles/VerifyFortranC.dir/main.c.o CMakeFiles/VerifyFortranC.dir/VerifyC.c.o  -o VerifyFortranC  -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7/gcc/x86_64-apple-darwin17.0.0/7.2.0  -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7 libVerifyFortran.a -lgfortran -lgcc_ext.10.5 -lgcc -lquadmath -lm -lgcc_ext.10.5 -lgcc 
+ld: warning: directory not found for option '-L/usr/local/opt/lapack/lib'
+ld: warning: directory not found for option '-L/usr/local/opt/openblas/lib'
+gmake[3]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC'
+[100%] Built target VerifyFortranC
+gmake[2]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC'
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_progress_start /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC/CMakeFiles 0
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/CMakeFiles/FortranCInterface/VerifyC'
+
+
+Fortran NONE exists. Change Dir: /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "secondtst_NONE"
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[2]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[3]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[4]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[4]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+[100%] Built target secondtst_NONE
+gmake[3]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[2]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+ 
+
+Fortran INT_CPU_TIME exists. Change Dir: /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "secondtst_INT_CPU_TIME"
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[2]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[3]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[4]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[4]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+[100%] Built target secondtst_INT_CPU_TIME
+gmake[3]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[2]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+ 
+
+Fortran INT_ETIME exists. Change Dir: /Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "secondtst_INT_ETIME"
+gmake[1]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[2]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[3]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[4]: Entering directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[4]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+[100%] Built target secondtst_INT_ETIME
+gmake[3]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[2]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+gmake[1]: Leaving directory '/Users/dojo/Library/Caches/Homebrew/lapack-3.7.1/build/INSTALL'
+ 
+
